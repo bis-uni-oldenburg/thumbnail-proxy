@@ -8,11 +8,11 @@ Voraussetzung ist eine Anpassung der Link Templates für syndetics.com und books
 
 Syndetics-Template:
 <br>Code: syndetics_thumb bzw. syndetics_thumb_exl
-<br>Template Code: https://example.com/path/to/cover/syndetics.php?isbn={{addata/isbn}}
+<br>Template Code: https://example.com/path/to/script/syndetics.php?isbn={{addata/isbn}}
 
 Google Books-Template:
 <br>Code: google_thumb
-<br>Template Code: https://example.com/path/to/cover/google_books.php?isbn={{addata/isbn}}&oclc={{addata/oclcid}}&lccn={{addata/lccn}}&callback=updateGBSCover
+<br>Template Code: https://example.com/path/to/script/google_books.php?isbn={{addata/isbn}}&oclc={{addata/oclcid}}&lccn={{addata/lccn}}&callback=updateGBSCover
 
 Die Link Templates funktionieren sowohl für das alte als auch für das neue Primo-UI.
 
@@ -24,10 +24,10 @@ Prerequisite is an adaptation of the link templates for syndetics.com and books.
 
 Syndetics template:
 <br>Code: syndetics_thumb bzw. syndetics_thumb_exl
-<br>Template Code: https://example.com/path/to/cover/syndetics.php?isbn={{addata/isbn}}
+<br>Template Code: https://example.com/path/to/script/syndetics.php?isbn={{addata/isbn}}
 
 Google Books template:
 <br>Code: google_thumb
-<br>Template Code: https://example.com/path/to/cover/google_books.php?isbn={{addata/isbn}}&oclc={{addata/oclcid}}&lccn={{addata/lccn}}&callback=updateGBSCover
+<br>Template Code: https://example.com/path/to/script/google_books.php?isbn={{addata/isbn}}&oclc={{addata/oclcid}}&lccn={{addata/lccn}}&callback=updateGBSCover
 
 The link templates work for both the old and the new primo UI.
