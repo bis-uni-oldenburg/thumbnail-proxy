@@ -6,11 +6,9 @@ Beim direkten Aufruf der Cover-Dienste von syndetics.com und books.google.com au
 Voraussetzung ist eine Anpassung der Link Templates für syndetics.com und books.google.com im Primo Back Office, Mapping Table Delivery/Templates:
 
 Syndetics-Template:
-
-Code: syndetics_thumb bzw. syndetics_thumb_exl
+<br>Code: syndetics_thumb bzw. syndetics_thumb_exl
 <br>Template Code: https://example.com/path/to/cover/syndetics.php?isbn={{addata/isbn}}
 
 Google Books-Template:
-
-Code: google_thumb
-Template Code: https://example.com/path/to/cover/google_books.php?isbn={{addata/isbn}}&oclc={{addata/oclcid}}&lccn={{addata/lccn}}&callback=updateGBSCover
+<br>Code: google_thumb
+<br>Template Code: https://example.com/path/to/cover/google_books.php?isbn={{addata/isbn}}&oclc={{addata/oclcid}}&lccn={{addata/lccn}}&callback=updateGBSCover
