@@ -31,3 +31,7 @@ Google Books template:
 <br>Template Code: https://example.com/path/to/script/google_books.php?isbn={{addata/isbn}}&oclc={{addata/oclcid}}&lccn={{addata/lccn}}&callback=updateGBSCover
 
 The link templates work for both the old and the new primo UI.
+
+#########################
+
+lars.heuer@uni-oldenburg.de
