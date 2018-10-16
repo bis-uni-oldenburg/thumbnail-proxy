@@ -35,8 +35,8 @@ else
     $show_image = isset($_GET["show_image"]) ? $_GET["show_image"] : 0;
 }
 
-$googlebooks_url = "https://books.google.com/books?bibkeys=%isbn%,OCLC:%oclc%,LCCN:%lccn%&jscmd=viewapi&callback=$callback";
-$script_url = str_replace(array("%isbn%", "%oclc%", "%lccn%", "%result%"), array($isbn, $oclc, $lccn, $result), $googlebooks_url);
+$googlebooks_url = "https://books.google.com/books?bibkeys=%isbn%,OCLC:%oclc%,LCCN:%lccn%&jscmd=viewapi&callback=%callback%";
+$script_url = str_replace(array("%isbn%", "%oclc%", "%lccn%", "%callback%"), array($isbn, $oclc, $lccn, $callback), $googlebooks_url);
 
 $regex = "!(\"thumbnail_url\"\:\")([^\"]+)(\")!"; 
 
