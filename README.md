@@ -4,7 +4,7 @@
 
 Beim direkten Aufruf der Cover-Dienste von syndetics.com und books.google.com aus dem Browser eines Primo-Nutzers werden nutzerspezifische Daten wie IP-Adresse und HTTP-Referrer an die Anbieter übermittelt. Um dies zu vermeiden, können stattdessen die auf einem lokalen Webserver bereitgestellten PHP-Skripte google_books.php und syndetics.php  aufgerufen werden. Diese fragen im Hintergrund die Cover-Dienste ab und reichen die ermittelten Daten an den Browser weiter. 
 
-Voraussetzung ist eine Anpassung der Link Templates für syndetics.com und books.google.com im Primo Back Office, Mapping Table Delivery/Templates:
+Voraussetzung ist eine Anpassung im Primo Back Office. Im Mapping Table Delivery/Templates müssen die Link Templates für syndetics.com und books.google.com wie folgt geändert werden:
 
 Syndetics-Template:
 <br>Code: syndetics_thumb bzw. syndetics_thumb_exl
