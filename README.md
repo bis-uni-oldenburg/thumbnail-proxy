@@ -8,7 +8,7 @@ Voraussetzung ist eine Anpassung der Link Templates für syndetics.com und books
 Syndetics-Template:
 
 Code: syndetics_thumb bzw. syndetics_thumb_exl
-\nTemplate Code: https://example.com/path/to/cover/syndetics.php?isbn={{addata/isbn}}
+<br>Template Code: https://example.com/path/to/cover/syndetics.php?isbn={{addata/isbn}}
 
 Google Books-Template:
 
