@@ -12,3 +12,5 @@ Syndetics-Template:
 Google Books-Template:
 <br>Code: google_thumb
 <br>Template Code: https://example.com/path/to/cover/google_books.php?isbn={{addata/isbn}}&oclc={{addata/oclcid}}&lccn={{addata/lccn}}&callback=updateGBSCover
+
+Die Link Templates funktionieren sowohl für das alte als auch für das neue Primo-UI.
